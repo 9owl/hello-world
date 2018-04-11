@@ -1,0 +1,6 @@
+Intent intent = new Intent(Intent.ACTION_RUN);
+intent.setComponent(new ComponentName("<packet name>", "<class name>"));
+List list = packageManager.queryIntentActivities(intent, packageManager.COMPONENT_ENABLED_STATE_DEFAULT);
+
+if(list.size() > 0)
+…

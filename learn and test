@@ -1,4 +1,0 @@
-pragma solidity ^0.4.0;
-import *cmake from github clone https://github.com/ethereum/solidity.git --recursive 
-cmake .. -LH
-cd solidity
